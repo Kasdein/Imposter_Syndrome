@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 3rem;
+    margin: 1%;
+    color:  rgb(138, 190, 161);
+    padding: 5%px;
+}
+
+a {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(248, 206, 113);
+    text-decoration: none;
+}
+
+img {
+    margin-top: 25px;
+    width: 10%;
+}
+
+footer{
+    width: 100%;
+    margin: 0;
+}
+
+#body{
+    display: flex;
+}
+
+#core{
+    display: inline;
+}
+
+#header {
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 1%;
+    margin-top: 0;
+}
+
+#header-text{
+    padding: 10px;
+    font-size: 2rem;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#text-container {
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+#footer-container {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#menu{
+    padding: 1%;
+    display: flex;
+}
+
+/* side stripes */
+.stripes {
+    display: flex;
+}
+
+.stripe {
+    height: 100%;
+    width: 35px;
+}
+
+/* colors */
+.green{
+    background-color: rgb(138, 190, 161);
+}
+
+.yellow{
+    background-color: rgb(248, 206, 113);
+}
+
+.red{
+    background-color: rgb(155, 60, 35);
+}
+
+.light-brown{
+    background-color: rgb(100, 77, 67);
+}
+
+.dark-brown{
+    background-color: rgb(70, 39, 33);
+}
+
+.beige{
+    background-color: rgb(255, 250, 208);
+}
+
+.black{
+    background-color: black;
+}
+
+p.yellow{
+    font-size: 2rem;
+    background-color: rgb(100, 77, 67);
+    color: rgb(248, 206, 113);;
+}
+
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+video{
+    display: flex;
+    justify-self: center;
+    width: 80%;
+    height: 80%;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-title{
+    padding-top: 20px;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+}
+
+#invisible{
+    color: transparent;
+}
+
+#door{
+    display: flex;
+    align-items: right;
+    background-color: rgb(100, 77, 67);
+    height: 800px;
+    width: 400px;
+}
+
+#doorknob{
+    background-color: rgb(70, 39, 33);
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-color: rgb(70, 39, 33);
+    border-radius: 50px;
+    position: relative;
+    margin-top: 100%;
+    margin-left: 80%;
+}
+
+.door-video{
+    height: 750%;
+    width: 75%;
+
+}
+
+.click{
+    height: 33px;
+    width: 33px;
+}
+
+.click:hover{
+    cursor: pointer;
+}
+
+.footer {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.75rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33%;
+}
+
+a:hover {
+    font-size: 2.5rem;
+}
