@@ -7,14 +7,15 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 img {
@@ -22,14 +23,12 @@ img {
 }
 
 p {
-    font-size: 3rem;
     margin: 1%;
     color:  rgb(138, 190, 161);
     padding: 5%px;
 }
 
 a {
-    font-size: 2rem;
     text-align: center;
     color: rgb(248, 206, 113);
     text-decoration: none;
@@ -62,7 +61,6 @@ footer{
 
 #header-text{
     padding: 10px;
-    font-size: 2rem;
 }
 
 #container {
@@ -70,8 +68,8 @@ footer{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 25px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
     margin-top: 10px;
 }
 
@@ -135,7 +133,7 @@ footer{
 }
 
 p.yellow{
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: rgb(100, 77, 67);
     color: rgb(248, 206, 113);;
 }
@@ -160,8 +158,8 @@ video{
 #section-title{
     padding-top: 20px;
     text-align: center;
-    height: 100px;
-    width: 300px;
+    height: 5%;
+    width: 15%;
 }
 
 #invisible{
@@ -172,17 +170,17 @@ video{
     display: flex;
     align-items: right;
     background-color: rgb(100, 77, 67);
-    height: 800px;
-    width: 400px;
+    height: 200px;
+    width: 100px;
 }
 
 #doorknob{
     background-color: rgb(70, 39, 33);
-    height: 50px;
-    width: 50px;
+    height: 7%;
+    width: 12%;
     border-style: solid;
     border-color: rgb(70, 39, 33);
-    border-radius: 50px;
+    border-radius: 80%;
     position: relative;
     margin-top: 100%;
     margin-left: 80%;
@@ -207,12 +205,11 @@ video{
     display: inline;
     justify-content: center;
     text-align: center;
-    font-size: 0.75rem;
     padding-left: 5px;
     padding-right: 5px;
     width: 33%;
 }
 
 a:hover {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
