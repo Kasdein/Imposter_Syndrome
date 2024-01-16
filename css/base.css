@@ -193,8 +193,8 @@ video{
 }
 
 .click{
-    height: 33px;
-    width: 33px;
+    height: 200px;
+    width: 100px;
 }
 
 .click:hover{

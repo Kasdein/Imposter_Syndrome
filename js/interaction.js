@@ -5,8 +5,8 @@ let getClass = function (className, index) {
     return document.getElementsByClassName(className)[index]
 }
 
-const continueButton = getId('continue')
+let buttonSketch = getClass('click')
 
-continueButton.onclick = () => {
-
+buttonSketch.onclick = () => {
+    window.open("https://Imposter_Syndrome/sketcbook_door.html")
 }
