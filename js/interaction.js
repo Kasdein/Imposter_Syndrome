@@ -5,3 +5,5 @@ let getClass = function (className, index) {
     return document.getElementsByClassName(className)[index]
 }
 
+
+  

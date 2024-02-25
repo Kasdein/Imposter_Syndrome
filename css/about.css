@@ -10,6 +10,7 @@ body {
     font-size: 1rem;
     display: flex;
     height: 100%;
+    width: 100%;
 }
 
 h1 {
@@ -50,6 +51,7 @@ footer{
 }
 
 #body{
+    display: flex;
     height: 100%;
     width: 100%;
     align-self:center ;
@@ -57,6 +59,7 @@ footer{
 
 #core{
     display: inline;
+    width: 100%;
 }
 
 #header {
@@ -80,44 +83,41 @@ footer{
     margin-top: 10px;
 }
 
+#door-container{
+    display: flex;
+    width: 15%;
+    margin-left: 65%;
+}
+
 #text-container {
     padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
 }
 
-#footer-container {
+
+#broken-container {
     width: 100%;
-    font-size: 1rem;
-    margin-top: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
+    display: flex;
 }
 
-
-/* #broken-container {
-    display: flex;
-} */
-
 #footer-broken {
-    width: 70%;
+    display: flex;
+    /* position: relative; */
+    /* width: 50%; */
     font-size: 1rem;
     text-align: center;
 }
 
 .broken-r {
     transform: rotate(-25deg);
-    position: absolute;
-    right: -280px;
-    bottom: 80px;
+    margin-right: -10%;
 }
 
 .broken-l {
     transform: rotate(25deg);
-    position: absolute;
-    left: -170px;
-    bottom: 20px;
+    /* position: relative; */
+    margin-left: -10%;
 }
 
 img.broke{
@@ -132,7 +132,6 @@ img.broke{
 }
 
 #menu.broke{
-    width: 80%;
     height: 150px;
     padding: 0px;
 }
@@ -153,7 +152,7 @@ img.broke{
 }
 
 .stripe {
-    height: 100%;
+    height: 500px;
     width: 35px;
 }
 
@@ -192,18 +191,34 @@ p.yellow{
     color: rgb(248, 206, 113);;
 }
 
-.right{
-    left: 100px;
-}
-
-.left{
-    right: 100px;
+#mega-core{
+    display: block;
+    
 }
 
 #under-body{
+    display: block;
+    margin-top: 350px;
     height: 100%;
     width: 100%;
-    align-self:center ;
+}
+
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    width: 200px;
+}
+
+.right {
+    margin-left: 15%;
+}
+
+.left {
+    margin-right: 15%;
 }
 
 .button{
@@ -228,10 +243,6 @@ video{
     text-align: center;
     height: 5%;
     width: 15%;
-}
-
-#invisible{
-    color: transparent;
 }
 
 #door{
@@ -274,16 +285,13 @@ video{
 
 .fade-in {
     opacity: 0;
-    transform: translateY(20vh);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-    will-change: opacity, visibility;
+    position: relative;
+    transition: opacity 1s ease-out, transform 1.2s ease-out;
 }
+
 
 .fade-in.is-visible {
     opacity: 1;
-    transform: none;
-    visibility: visible;
 }
 
 a:hover {
