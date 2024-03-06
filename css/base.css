@@ -289,8 +289,8 @@ video{
 
 #stopper{
     position: absolute;
-    height: 200px;
-    width: 100px;
+    height: 225px;
+    width: 125px;
     background-color: transparent;
     cursor: pointer;
 }

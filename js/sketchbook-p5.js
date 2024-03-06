@@ -6,12 +6,6 @@ let getClass = function (className, index) {
 }
 
 
-// let moving = true
-// const door = document.createElement("div")
-// door.innerText = "here"
-// door.className = "stopper"
-// document.body.appendChild(door)
-
 let xpos, ypos
 
 const door = document.createElement("div")
@@ -19,12 +13,7 @@ door.id = "stopper"
 let doorHeight = 200
 let doorWidth = 100
 
-// let mousePos = [mouseX, mouseY]
-
-// console.log(boundsX)
-
-let doorstopper
-let speed = 3.5
+let speed = 5
 
 let xdirection = 1
 let ydirection = 1
@@ -37,7 +26,6 @@ function setup() {
     loop()
 
     document.body.appendChild(door)
-    // let bounds = [boundsX, boundsY]
 
     xpos = width / 2
     ypos = height / 2
@@ -71,11 +59,6 @@ function draw() {
     fill(70, 39, 33) 
     ellipse(xpos + 85, ypos + 105, 13, 13)
 
-
-
-    // function openPage() {
-    //     window.open('https://kasdein.github.io/Imposter_Syndrome/sketchbook_door.html', _blank,)
-    // }
     fill(138, 190, 161)
     rect(0, 0, 35, innerHeight)
     rect(innerWidth - 35, 0, 35, innerHeight)
@@ -85,15 +68,14 @@ function draw() {
     fill(155, 60, 35)
     rect(70, 0, 35, innerHeight)
     rect(innerWidth - 105, 0, 35, innerHeight)
+}
 
-    console.log(doorPos)
-    
+function stop () {
+    noLoop()
+}
 
-    // door.addEventListener('mouseenter', stop)
-    // addEventListener('mouseover', stop)
-
-    // mover = addEventListener('mouseout', move)
-    // newPage = addEventListener('click', openPage)
+function move () {
+    loop()
 }
 
 function openLink () {
@@ -101,3 +83,5 @@ function openLink () {
 }
 
 door.addEventListener('click', openLink)
+door.addEventListener('mouseover', stop)
+door.addEventListener('mouseout', move)
