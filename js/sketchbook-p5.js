@@ -6,18 +6,22 @@ let getClass = function (className, index) {
 }
 
 
+// position within the canvas
 let xpos, ypos
 
+// creates a div that we will place over the drawn door to create an invisible clickable object
 const door = document.createElement("div")
+// adds the stopper id to the objext that wil allow it to stop when hovered
 door.id = "stopper"
 let doorHeight = 200
 let doorWidth = 100
 
+// direction and speed the object will go
 let speed = 5
-
 let xdirection = 1
 let ydirection = 1
 
+// draws the door on the canvas and adds the door div
 function setup() {
 
     createCanvas(innerWidth, innerHeight)
@@ -31,12 +35,11 @@ function setup() {
     ypos = height / 2
 }
 
-
 function draw() {
 
+    // creates a new drawing of the door every tick
     background (0)
 
-    
     xpos = xpos + (speed * xdirection)
     ypos = ypos + (speed * ydirection)
 
@@ -47,6 +50,7 @@ function draw() {
         ydirection *= -1
     }
 
+    // sets the invisible div position to be on top of the door at all times
     let doorPos = [xpos + 'px', ypos + 760 + 'px']
     door.style.left = doorPos[0]
     door.style.top = doorPos[1]
