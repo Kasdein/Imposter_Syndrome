@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial scale=1.0">
-    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/sketchbook.css">
     <title>KnickKnack's Portfolio</title>
 </head>
 <body class="beige">
@@ -37,18 +38,69 @@
                     </div> -->
                 </div>
             </div>
-            <div id="container">
+            <div id="section-container">
                 <div id="section-title" class="light-brown">
                     <p>Sketchbook</p>
                 </div>
             </div>
-            <div id="container">
+            <div id="flipbook_container">
+                <div class="book">
+                    <input type="checkbox" id="c1">
+                    <input type="checkbox" id="c2">
+                    <input type="checkbox" id="c3">
+                    <input type="checkbox" id="c4">
+                    <input type="checkbox" id="c5">
+                    <div class="flip-book">
+                        <div class="flip" id="p1">
+                            <div class="back">
+                                <img class="flip_img" src="images/sketchbook page 2.png">
+                                <label class="back-btn" for="c1">Back</label>
+                            </div>
+                            <div class="front">
+                                <img class="flip_img" src="images/sketchbook page 1.png">
+                                <label class="next-btn" style="color: beige;" for="c1">Open</label>
+                            </div>
+                        </div>
+                        <div class="flip" id="p2">
+                            <div class="back">
+                                <img class="flip_img" src="images/sketchbook page 4.png">
+                                <label class="back-btn" style="color: beige;" for="c2">Back</label>
+                            </div>
+                            <div class="front">
+                                <img class="flip_img" src="images/sketchbook page 3.png">
+                                <label class="next-btn" for="c2">Next</label>
+                            </div>
+                        </div>
+                        <div class="flip" id="p3">
+                            <div class="back">
+                                <img class="flip_img" src="images/sketchbook page 6.png">
+                                <label class="back-btn" for="c3">Back</label>
+                            </div>
+                            <div class="front">
+                                <img class="flip_img" src="images/sketchbook page 5.png">
+                                <label class="next-btn" style="color: beige;" for="c3">Next</label>
+                            </div>
+                        </div>
+                        <div class="flip" id="p4">
+                            <div class="back">
+                                <img class="flip_img" src="images/sketchbook page 8.png">
+                                <label class="back-btn" style="color: beige;" for="c4">Back</label>
+                            </div>
+                            <div class="front">
+                                <img class="flip_img" src="images/sketchbook page 7.png">
+                                <label class="next-btn" for="c4">Next</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div id="container">
                 <div class="click" onclick="window.open('https://kasdein.github.io/Imposter_Syndrome/sketchbook_door.html')">
                     <div id="door">
                         <div id="doorknob"></div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div id="footer-container">
                 <div id="menu" class="light-brown">
                     <div class="footer">

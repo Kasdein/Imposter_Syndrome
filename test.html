@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My example Website</title>
+<link rel="stylesheet" href="css/sketchbook.css">
+<style>
+body {
+margin: 0;
+padding: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align:center;
+font-family: sans-serif;
+}
+
+img.flip_img {
+    width: 100%;
+    height: 100%;
+}
+
+.flip-book {
+width: 500px;
+height: 275px;
+position: relative;
+perspective: 1500px;
+}
+
+.flip {
+transform-origin: center left;
+transform-style: preserve-3d;
+transition: 1s;
+backface-visibility: hidden;
+}
+
+.front{
+    background-color: transparent;
+}
+
+.cover{
+    height: 275px; 
+    width: 500px; 
+    background-color: transparent; 
+    color:white; 
+    backface-visibility: hidden;
+}
+
+.back {
+background-color: transparent;
+transform: rotateY(180deg);
+}
+
+label{
+    backface-visibility: hidden;
+    color:darkblue;
+    border:1px solid darkblue; 
+}
+
+.next-btn {
+border: 2px solid black;
+border-radius: 10px;
+padding: 4px;
+bottom: 13px;
+right: 13px;
+cursor: pointer;
+color: #000;
+backface-visibility: hidden;
+}
+
+.back-btn {
+border: 2px solid black;
+border-radius: 10px;
+padding: 4px;
+bottom: 13px;
+right: 13px;
+cursor: pointer;
+color: #000;
+backface-visibility: hidden;
+}
+</style>
+</head>
+<body>
+<div class="book">
+<input type="checkbox" id="c1">
+<input type="checkbox" id="c2">
+<input type="checkbox" id="c3">
+<input type="checkbox" id="c4">
+<input type="checkbox" id="c5">
+
+<div id="cover"></div>
+<div class="flip-book">
+
+<div class="flip" id="p1">
+<div class="back">
+<img class="flip_img" src="images/sketchbook page 2.png">
+<label class="back-btn" for="c1">Back</label>
+</div>
+<div class="front" style="height: 275px; width: 500px; background-color: transparent; color:white; backface-visibility: hidden;">
+<img class="flip_img" src="images/sketchbook page 1.png">
+
+<label class="next-btn" style="color: beige;" for="c1">Open</label>
+</div>
+</div>
+
+<div class="flip" id="p2">
+
+<div class="back">
+<img class="flip_img" src="images/sketchbook page 4.png">
+
+<label class="back-btn" style="color: beige;" for="c2">Back</label>
+</div>
+<div class="front">
+
+<img class="flip_img" src="images/sketchbook page 3.png">
+<label class="next-btn" for="c2">Next</label>
+</div>
+</div>
+
+<div class="flip" id="p3">
+<div class="back">
+<img class="flip_img" src="images/sketchbook page 6.png">
+<label class="back-btn" for="c3">Back</label>
+</div>
+<div class="front">
+<img class="flip_img" src="images/sketchbook page 5.png">
+<label class="next-btn" style="color: beige;" for="c3">Next</label>
+</div>
+</div>
+
+<div class="flip" id="p4">
+<div class="back">
+<img class="flip_img" src="images/sketchbook page 8.png">
+
+<label class="back-btn" style="color: beige;" for="c4">Back</label>
+</div>
+
+<div class="front">
+<img class="flip_img" src="images/sketchbook page 7.png">
+
+<label class="next-btn" for="c4">Next</label>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
