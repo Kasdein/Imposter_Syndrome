@@ -21,10 +21,12 @@ h4 {
 }
 
 img {
-    width: 90%;
+    /* width: 90%; */
     margin-top: 9px;
     margin-bottom: 9px;
     width: 15%;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 img.social{
@@ -307,4 +309,12 @@ video{
 
 a:hover {
     font-size: 1.5rem;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
 }
