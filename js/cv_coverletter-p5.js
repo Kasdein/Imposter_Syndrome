@@ -20,6 +20,14 @@ let doorWidth = 100
 let speed = 5
 let xdirection = 1
 let ydirection = 1
+const imgElem = new Image()
+imgElem.id = "stopper"
+imgElem.src = 'images/door 2.png'
+
+
+
+
+
 
 // draws the door on the canvas and adds the door div
 function setup() {
@@ -29,6 +37,7 @@ function setup() {
     frameRate(30)
     loop()
 
+    document.body.appendChild(imgElem)
     document.body.appendChild(door)
 
     xpos = width / 2
@@ -43,10 +52,10 @@ function draw() {
     xpos = xpos + (speed * xdirection)
     ypos = ypos + (speed * ydirection)
 
-    if (xpos > width - 205 || xpos < 105) {
+    if (xpos > width - 230 || xpos < 95) {
         xdirection *= -1
     }  
-    if (ypos > height - 200 || ypos < 0) {
+    if (ypos > height - 200 || ypos < 50) {
         ydirection *= -1
     }
 
@@ -54,14 +63,15 @@ function draw() {
     let doorPos = [xpos + 'px', ypos + 760 + 'px']
     door.style.left = doorPos[0]
     door.style.top = doorPos[1]
+    imgElem.style.left = doorPos[0]
+    imgElem.style.top = doorPos[1]
 
 
 
-
-    fill(100, 77, 67)
-    rect (xpos, ypos, doorWidth, doorHeight) 
-    fill(70, 39, 33) 
-    ellipse(xpos + 85, ypos + 105, 13, 13)
+    // fill(100, 77, 67)
+    // rect (xpos, ypos, doorWidth, doorHeight) 
+    // fill(70, 39, 33) 
+    // ellipse(xpos + 85, ypos + 105, 13, 13)
 
     fill(138, 190, 161)
     rect(0, 0, 35, innerHeight)
@@ -83,7 +93,7 @@ function move () {
 }
 
 function openLink () {
-    window.open('https://kasdein.github.io/Imposter_Syndrome/sketchbook_door.html')
+    window.open('https://kasdein.github.io/Imposter_Syndrome/gallery_door.html')
 }
 
 door.addEventListener('click', openLink)

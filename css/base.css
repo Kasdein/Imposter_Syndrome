@@ -29,6 +29,11 @@ img {
     margin-right: 5px;
 }
 
+img.door{
+    width:100px;
+    height:200px;
+}
+
 img.social{
     position: relative;
     width: 22%;

@@ -13,7 +13,7 @@ function fadeIn() {
 
             const windowHeight = window.innerHeight;
             const elementTop = fadeInClass[i].getBoundingClientRect().top;
-            const elementVisible = 300;
+            const elementVisible = 200;
             //checks the height of the object within the window and changes the class to make it visible
         if (elementTop < windowHeight - elementVisible) {
             fadeInClass[i].classList.add("is-visible");
