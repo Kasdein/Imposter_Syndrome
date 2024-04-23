@@ -29,6 +29,12 @@ img {
     margin-right: 5px;
 }
 
+.mid{
+    /* height: 50%; */
+    width: 30%;
+    /* margin: 50px; */
+}
+
 img.door{
     width:100px;
     height:200px;
