@@ -55,7 +55,7 @@ function draw() {
     if (xpos > width - 230 || xpos < 95) {
         xdirection *= -1
     }  
-    if (ypos > height - 200 || ypos < 50) {
+    if (ypos > height + 80 || ypos < 300) {
         ydirection *= -1
     }
 

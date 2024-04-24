@@ -39,6 +39,10 @@ img {
     /* margin: 50px; */
 }
 
+.big{
+    width: 50%;
+}
+
 img.door{
     width:100px;
     height:200px;
