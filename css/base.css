@@ -145,6 +145,11 @@ footer{
     bottom: 80px;
 }
 
+.collab:hover {
+    font-size: 1rem;
+    color: rgb(155, 60, 35);
+}
+
 .broken-l {
     transform: rotate(25deg);
     position: absolute;

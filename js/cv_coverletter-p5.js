@@ -55,12 +55,12 @@ function draw() {
     if (xpos > width - 230 || xpos < 95) {
         xdirection *= -1
     }  
-    if (ypos > height + 80 || ypos < 300) {
+    if (ypos > height - 135 || ypos < 90) {
         ydirection *= -1
     }
 
     // sets the invisible div position to be on top of the door at all times
-    let doorPos = [xpos + 'px', ypos + 760 + 'px']
+    let doorPos = [xpos + 'px', ypos + 1750 + 'px']
     door.style.left = doorPos[0]
     door.style.top = doorPos[1]
     imgElem.style.left = doorPos[0]
