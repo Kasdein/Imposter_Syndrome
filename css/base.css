@@ -145,9 +145,13 @@ footer{
     bottom: 80px;
 }
 
+.collab{
+    color: rgb(155, 60, 35);
+}
+
 .collab:hover {
     font-size: 1rem;
-    color: rgb(155, 60, 35);
+    color: rgb(70, 39, 33);
 }
 
 .broken-l {
