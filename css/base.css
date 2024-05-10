@@ -14,6 +14,7 @@ body {
 
 h1 {
     font-size: 2rem;
+    color: rgb(70, 39, 33)
 }
 
 h4 {
@@ -68,12 +69,30 @@ img.social{
     width: 22%;
 }
 
+#container.unmargined{
+    margin:0;
+}
+
 p {
     margin: 1%;
     letter-spacing: 3px;
     color:  rgb(255, 250, 208);
     text-transform: uppercase;
     padding: none;
+}
+
+.center{
+    text-align: center;
+    color: rgb(155, 60, 35)
+}
+
+.margined{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.margin{
+    margin: 1%;
 }
 
 p.hero{

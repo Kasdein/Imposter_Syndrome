@@ -60,7 +60,7 @@ function draw() {
     }
 
     // sets the invisible div position to be on top of the door at all times
-    let doorPos = [xpos + 'px', ypos + 1750 + 'px']
+    let doorPos = [xpos + 'px', ypos + 1950 + 'px']
     door.style.left = doorPos[0]
     door.style.top = doorPos[1]
     imgElem.style.left = doorPos[0]
