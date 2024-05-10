@@ -21,7 +21,12 @@ h4 {
 }
 
 #credits{
-    margin: 20px
+    margin: 20px;
+    color: rgb(70, 39, 33)
+}
+
+#credits.p{
+    color: rgb(70, 39, 33)
 }
 
 img {
@@ -67,12 +72,16 @@ p {
     margin: 1%;
     letter-spacing: 3px;
     color:  rgb(255, 250, 208);
-        text-transform: uppercase;
+    text-transform: uppercase;
     padding: none;
 }
 
-p.about {
+p.hero{
     color: rgb(70, 39, 33);
+    text-transform: capitalize;
+}
+
+a.hero{
     text-transform: lowercase;
 }
 
