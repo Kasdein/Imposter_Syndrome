@@ -48,6 +48,13 @@ p {
     text-transform: uppercase;
 }
 
+p.hero{
+    margin-top: 5%;
+    /* color: rgb(70, 39, 33); */
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
 a {
     text-align: center;
     color: rgb(248, 206, 113);
