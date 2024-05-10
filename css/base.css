@@ -67,7 +67,13 @@ p {
     margin: 1%;
     letter-spacing: 3px;
     color:  rgb(255, 250, 208);
+        text-transform: uppercase;
     padding: none;
+}
+
+p.about {
+    color: rgb(70, 39, 33);
+    text-transform: lowercase;
 }
 
 a {

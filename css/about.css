@@ -45,6 +45,7 @@ p {
     letter-spacing: 3px;
     color:  rgb(255, 250, 208);
     padding: none;
+    text-transform: uppercase;
 }
 
 a {
