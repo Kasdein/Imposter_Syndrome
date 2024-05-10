@@ -47,8 +47,14 @@ img {
     width: 50%;
 }
 
+.swing{
+    position: absolute;
+    left: 85px;
+    top: 133px;
+}
+
 img.door{
-    width:100px;
+    width: 50%;
     height:200px;
 }
 
@@ -59,7 +65,8 @@ img.social{
 
 p {
     margin: 1%;
-    color:  rgb(138, 190, 161);
+    letter-spacing: 3px;
+    color:  rgb(255, 250, 208);
     padding: none;
 }
 
