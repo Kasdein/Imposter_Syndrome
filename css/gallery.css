@@ -73,6 +73,10 @@ label:hover{
     background-color: transparent;
 }
 
+.right {
+    position: relative;
+}
+
 .back {
     width: 100%;
     height: 100%;
@@ -84,12 +88,8 @@ label:hover{
     background-color: transparent;
 }
 
-.margined{
-    margin: 50px;
-}
-
 .door{
-    width: 100%;
+    width: 200px;
 }
 
 #p1 {
