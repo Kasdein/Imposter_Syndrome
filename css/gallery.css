@@ -84,6 +84,14 @@ label:hover{
     background-color: transparent;
 }
 
+.margined{
+    margin: 50px;
+}
+
+.door{
+    width: 100%;
+}
+
 #p1 {
     z-index: 5;
     margin: 5px;
