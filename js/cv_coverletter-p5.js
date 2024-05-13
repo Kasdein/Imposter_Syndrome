@@ -93,7 +93,7 @@ function move () {
 }
 
 function openLink () {
-    window.open('https://kasdein.github.io/Imposter_Syndrome/gallery_door.html')
+    window.open('https://kasdein.github.io/Imposter_Syndrome/cv_coverletter_door.html')
 }
 
 door.addEventListener('click', openLink)
